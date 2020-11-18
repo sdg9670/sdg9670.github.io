@@ -123,9 +123,6 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:sdg9670@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://sdg9670.github.io/"

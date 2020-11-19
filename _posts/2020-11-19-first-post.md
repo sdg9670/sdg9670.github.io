@@ -1,7 +1,10 @@
 ---
 title: "블로그 오픈"
 date: 2020-11-19T02:34:50.453Z
-categories: talk
+categories: 
+  - talk
+tags:
+  - 잡담
 ---
 
 **2020년 11월 19을 블로그를 만들었다.**

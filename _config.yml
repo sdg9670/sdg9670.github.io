@@ -128,7 +128,7 @@ footer:
       url: "mailto:sdg9670@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://sdg9670.github.io/"
+      #url: "https://sdg9670.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"

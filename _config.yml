@@ -18,11 +18,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Simddong's blog"
+title                    : "SimDdong's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Simddong"
-description              : "Simple life"
+name                     : "SimDdong"
+description              : "Programming Skill Blog"
 url                      : "https://sdg9670.github.io"
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Simddong"
+  name             : "SimDdong"
   avatar           : "/assets/images/avatar.jpg"
   bio              : "NodeJS, Flutter, Elastic search 등에 관심이 있습니다."
   location         : "Seoul, Korea"

@@ -5,7 +5,7 @@ categories:
   - docker
   - nodejs
 tags:
-  - 빌드
+  - build
 ---
 
 예제 프로젝트 깃허브: [Example Dockerizing Express Github](https://github.com/sdg9670/example-dockerizing-express)

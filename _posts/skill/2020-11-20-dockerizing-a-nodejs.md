@@ -119,4 +119,4 @@ docker run -p 3000:3000 --name 컨테이너이름 이미지이름
 
 이렇게 되면 생성된 이미지로 언제든 컨테이너를 생성할 수 있다.
 
-> 다음 포스팅: [Docker & Jenkins 구성 및 자동배포]({% post_url 2020-11-20-docker-jenkins-ci-cd %})
+> 다음 포스팅: [Docker & Jenkins 구성 및 자동배포 (With Github Webhook)]({% post_url skill/2020-11-20-docker-jenkins-ci-cd %})

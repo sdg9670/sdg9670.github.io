@@ -1,5 +1,5 @@
 ---
-title: "Docker & Jenkins 구성 및 자동배포"
+title: "Docker & Jenkins 구성 및 자동배포 (With Github Webhook)"
 date: 2020-11-20T08:01:00.246Z
 categories: 
   - docker
@@ -8,7 +8,7 @@ tags:
   - webhook
 ---
 
-> 이전 포스팅: [Dockerizing a Node.js]({% post_url 2020-11-20-dockerizing-a-nodejs %})
+> 이전 포스팅: [Dockerizing a Node.js]({% post_url skill/2020-11-20-dockerizing-a-nodejs %})
 
 이전에 만든 Docker를 이용해 Jenkins에서 자동배포를 해보자.
 
@@ -167,13 +167,13 @@ Build with Parameters를 클릭한다.
 프로젝트 구성에서 위 Github hook ~~을 체크하고 저장한다.
 
 
-![](/assets/images/2020-11-20-docker-jenkins-ci-cd-12.png)
+![](/assets/images/2020-11-20-docker-jenkins-ci-cd-13.png)
 
 
 `Add Webhook` 클릭하고 비밀번호를 입력한다.
 
 
-![](/assets/images/2020-11-20-docker-jenkins-ci-cd-13.png)
+![](/assets/images/2020-11-20-docker-jenkins-ci-cd-12.png)
 
 
 위와 같이 설정 후 `Add webhook`을 클릭한다.

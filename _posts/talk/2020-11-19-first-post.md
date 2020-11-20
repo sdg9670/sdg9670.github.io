@@ -4,7 +4,7 @@ date: 2020-11-19T02:34:50.453Z
 categories: 
   - talk
 tags:
-  - 잡담
+  - 파이팅
 ---
 
 # 드디어

@@ -1,7 +1,7 @@
 ---
 title: "Node.js 프로그램을 도커 이미지로 빌드하기"
 date: 2020-11-20T07:45:46.246Z
-categories: 
+categories:
   - docker
   - nodejs
 tags:
@@ -21,25 +21,33 @@ tags:
 ## 도커 이미지 구성
 
 **Base**
+
 > Base 이미지는 빌드 및 실행에 쓸 기본적인 `Node 환경을 구성`
+>
 > - Alpine 리눅스에 Node가 탑재된 node-alpine 이미지를 사용
 > - Node는 이미 설치되어있기에 기타 부가적으로 필요한 패키지를 설치
 > - 작업을 할 폴더를 구성
 > - 로컬에서 package.json 복사
 
 **Dependensies**
+
 > Dependensies 이미지는 Base 이미지 기반으로 빌드 및 실행에 쓰일 `Node Modules을 설치`
+>
 > - package.json에 구성된 dependencies를 우선 설치
 > - dependencies를 다른 폴더에 복사
 > - 이미 dependencies가 설치 됬기에 devDependencies 항목만 설치
 
 **Build**
+
 > Build 이미지는 Dependensies 이미지 기반으로 `소스코드 빌드`
+>
 > - 빌드에 필요한 설정파일 및 소스코드 복사
 > - 빌드 명령어 실행
 
 **Release**
+
 > Release 이미지는 base 이미지 기반으로 `빌드파일을 실행`
+>
 > - Build Args 설정 및 환경변수 설정
 > - Dependensies 이미지에서 devDependencies를 제외한 dependencies만 복사
 > - 빌드에 필요한 설정파일 및 소스코드 복사
@@ -109,7 +117,6 @@ docker build --build-arg NODE_ENV=옵션 -t 이미지이름 .
 # 3000포트를 바인딩 후 이미지를 컨테이너로 실행
 docker run -p 3000:3000 --name 컨테이너이름 이미지이름
 ```
-
 
 위 명령어를 실행하신 후 http://localhost:3000/ 에 접속하시면 본인이 설정한 NODE_ENV를 출력한다.
 

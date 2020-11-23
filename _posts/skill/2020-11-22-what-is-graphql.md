@@ -10,9 +10,9 @@ tags:
   - API
 ---
 
-![](/assets/images/2020-11-22-what-is-graphql-1.png)
-
 > Facebook은 2012년 RESTful API를 사용하는 기존의 모바일 앱을 다시 만들어야겠다고 판단한다. 그 이유는 성능도 좋지 않았고 앱은 충돌이 자주났기 때문이다. 이 때 데이터를 전송하는 방식을 개선해야된다고 깨닫게 된다. 이 후 데이터를 다른 시각으로 바라보게 되고 GraphQL을 만들기 시작하여 2015년 7월에 GraphQL 레퍼런스를 공개하였다. 현재 페이스북 내부 데이터는 GraphQL을 이용하여 전송하며 IBM, Airbnb, Intuit 등 다른 회사에서도 사용한다.
+
+![](/assets/images/2020-11-22-what-is-graphql-1.png)
 
 **GraphQL은 Graph 이론을 기반으로 만든 API를 만들 때 사용하는 SQL 언어이다. 데이터에 대한 스키마 정의를 한 기준으로 쿼리를 실행하여 데이터를 불러오는 방식이다.**
 

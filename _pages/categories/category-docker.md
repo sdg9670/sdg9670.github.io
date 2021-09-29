@@ -5,8 +5,8 @@ permalink: /categories/docker
 author_profile: true
 ---
 
-{% assign posts = site.categories.docker | sort:"date" %}
+{% assign posts = site.categories.docker | sort:"date" | reverse %}
 
 {% for post in posts %}
-  {% include archive-single.html type=page.entries_layout %}
+{% include archive-single.html type=page.entries_layout %}
 {% endfor %}

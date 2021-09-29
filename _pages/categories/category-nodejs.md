@@ -5,8 +5,8 @@ permalink: /categories/nodejs
 author_profile: true
 ---
 
-{% assign posts = site.categories.nodejs | sort:"date" %}
+{% assign posts = site.categories.nodejs | sort:"date" | reverse %}
 
 {% for post in posts %}
-  {% include archive-single.html type=page.entries_layout %}
+{% include archive-single.html type=page.entries_layout %}
 {% endfor %}

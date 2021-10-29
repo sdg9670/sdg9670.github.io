@@ -1,10 +1,11 @@
 ---
 title: "타입스크립트와 함께 Vue3 시작하기"
-date: 2021-10-29T12:02:15.040Z
+date: 2021-10-29T00:02:15.040Z
 categories:
   - nodejs
 tags:
   - vue
+  - tpyescript
 ---
 
 ![](/assets/images/2021-10-29-start-vue-3-with-typescript-3.png)

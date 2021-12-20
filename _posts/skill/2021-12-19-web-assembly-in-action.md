@@ -1,5 +1,5 @@
 ---
-title: "WebAssembly in Action (웹어셈블리 인 액션)"
+title: "[도서] WebAssembly in Action (웹어셈블리 인 액션)"
 date: 2021-12-19T00:02:15.040Z
 categories:
   - webassembly

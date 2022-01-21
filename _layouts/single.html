@@ -44,10 +44,8 @@ layout: default
         {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
-
-      <!-- 광고 삽입 -->
-      <section>
+      
+        <!-- 광고 삽입 -->
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7337870990997384"
             crossorigin="anonymous"></script>
         <ins class="adsbygoogle"
@@ -59,8 +57,8 @@ layout: default
         <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
+        <!-- 광고 삽입 -->
       </section>
-      <!-- 광고 삽입 -->
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}

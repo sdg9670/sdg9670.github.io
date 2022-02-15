@@ -27,7 +27,8 @@ Github: [Go to view](https://github.com/sdg9670)
 
 My career is on the website below.
 
-🚀 [Go to view](https://www.rocketpunch.com/@sdg9670f15008f9)
+🚀 [Go to Linkedin](https://www.linkedin.com/in/donggeun-sim-567388183)
+🚀 [Go to Rocketpunch](https://www.rocketpunch.com/@sdg9670f15008f9)
 
 # Blog
 

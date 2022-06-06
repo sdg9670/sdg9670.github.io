@@ -1,6 +1,6 @@
 ---
 title: "Kustomize와 Jenkins를 이용한 ArgoCD 배포"
-date: 2022-01-27T00:02:15.040Z
+date: 2022-05-27T00:02:15.040Z
 categories:
   - microservice
   - kubernetes

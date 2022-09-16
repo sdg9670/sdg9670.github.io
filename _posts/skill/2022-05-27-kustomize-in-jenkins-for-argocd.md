@@ -272,7 +272,7 @@ pipeline {
         // 빌드한 결과를 커밋하고 푸시한다.
         stage('k8s config commit and push') {
             steps {
-                sh 'git config --global user.email "jenkins@jinhakapply.com"'
+                sh 'git config --global user.email "jenkins@github.com"'
                 sh 'git config --global user.name "jenkins"'
                 sh 'git add -A'
                 sh 'git commit -m "update! version: ${BUILD_NUMBER}"'

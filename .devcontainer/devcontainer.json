@@ -16,11 +16,6 @@
             ]
         }
     },
-    "features": {
-        "ghcr.io/devcontainers/features/node": {
-            "version": "lts"
-        }
-    },
     "remoteEnv": {
         "TZ": "Asia/Seoul"
     }

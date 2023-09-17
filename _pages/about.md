@@ -7,7 +7,8 @@ layouts_gallery:
     image_path: /assets/images/avatar.jpg
     alt: "single layout with comments and related posts"
 toc: true
-last_modified_at: 2023-09-07T8:40:00+09:00
+toc_sticky: true
+last_modified_at: 2023-09-07T08:40:00+09:00
 ---
 {% include gallery id="layouts_gallery" %}
 

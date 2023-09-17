@@ -1,22 +1,23 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
-	"name": "Jekyll",
-    "build": {
-        "dockerfile": "Dockerfile",
-	},
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "esbenp.prettier-vscode",
-                "GitHub.copilot",
-                "GitHub.copilot-chat",
-                "eamodio.gitlens",
-                "GitHub.vscode-pull-request-github"
-            ]
-        }
-    },
-    "remoteEnv": {
-        "TZ": "Asia/Seoul"
+  "name": "Jekyll",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "bash ./init.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "eamodio.gitlens",
+        "GitHub.vscode-pull-request-github"
+      ]
     }
+  },
+  "remoteEnv": {
+    "TZ": "Asia/Seoul"
+  }
 }

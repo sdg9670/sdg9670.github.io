@@ -4,10 +4,18 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
 @import url(http://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/d2coding.css);
 
-$serif: 'Noto Serif KR', Georgia, Times, serif !default;
-$monospace: 'D2 coding', Monaco, Consolas, "Lucida Console", monospace !default;
-$sans-serif: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$serif: "Noto Serif KR", Georgia, Times, serif !default;
+$monospace: "D2 coding", Monaco, Consolas, "Lucida Console", monospace !default;
+$sans-serif:
+  "Noto Sans KR",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Roboto",
+  "Segoe UI",
+  "Helvetica Neue",
+  "Lucida Grande",
+  Arial,
+  sans-serif !default;
 
 // syntax highlighting
 $base00: #282936;
@@ -26,4 +34,3 @@ $base0c: #a1efe4;
 $base0d: #62d6e8;
 $base0e: #b45bcf;
 $base0f: #00f769;
-

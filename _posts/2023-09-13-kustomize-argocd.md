@@ -73,10 +73,10 @@ spec:
   template:
     spec:
       containers:
-      - name: argocd-test-app
-        image: argocd-test-app
-        ports:
-        - containerPort: 80
+        - name: argocd-test-app
+          image: argocd-test-app
+          ports:
+            - containerPort: 80
 ```
 
 위 소스를 보면 공통적으로 사용하는 값만 정의해놨다. image 태그같은건 정의하지 않았다. `base/service.yaml`도 마찬가지라 생략한다.

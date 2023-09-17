@@ -55,7 +55,7 @@ app.use(
   createProxyMiddleware({
     target: "https://news.naver.com",
     changeOrigin: true,
-  })
+  }),
 );
 app.listen(3000);
 ```
@@ -85,7 +85,7 @@ app.use(
     pathRewrite: {
       "^/news": "/",
     },
-  })
+  }),
 );
 
 app.listen(3000);

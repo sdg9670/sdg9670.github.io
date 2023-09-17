@@ -58,7 +58,7 @@ deploy폴더에 쿠버네티스 오브젝트 파일을 두었으며, `Base` 기�
 
 - base/deployment.yaml
 
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -221,7 +221,7 @@ kustomize build . > output/deploy.yaml
 
 일단 `jenkins/development.Jenkinsfile`이란 파일을 생성했다. 이 파일에 파이프라인을 작성할 것이다. 처음 작성해봤기에 로직 참고만 하면 좋을 것 같다.
 
-```Groovy
+```groovy
 pipeline {
     agent any
 

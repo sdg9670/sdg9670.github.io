@@ -17,6 +17,11 @@
       ]
     }
   },
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli": {
+      "version": "latest"
+    }
+  },
   "remoteEnv": {
     "TZ": "Asia/Seoul"
   }

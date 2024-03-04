@@ -7,7 +7,7 @@ tags:
   - nestjs
   - microservice
   - kafka
-last_modified_at: 2023-03-04T20:00:00+09:00
+last_modified_at: 2024-03-04T20:00:00+09:00
 ---
 
 ![](/assets/images/posts/2024-03-04-nestjs-kafka-1.png)

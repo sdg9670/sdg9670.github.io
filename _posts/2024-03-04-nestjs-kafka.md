@@ -1,5 +1,5 @@
 ---
-title: "Nest.js에서 Kafka 사용하기"
+title: "Nest.js에서 Kafka 사용하기 (이벤트 기반)"
 categories:
   - nodejs
 tags:
